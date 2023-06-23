@@ -12,6 +12,9 @@ void bubble_sort(int *array, size_t size)
 	size_t k, l;
 	int tmp;
 
+	if (size < 2)
+		return;
+
 	for (k = 0; k < size; k++)
 	{
 		for (l = 0; l < size - 1; l++)
