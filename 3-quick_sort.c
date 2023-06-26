@@ -16,6 +16,7 @@ void quick_sort(int *array, size_t size)
  * @array: the array
  * @low: integer
  * @high: integer
+ * @size: size of arrar
  * Return: integer
 */
 
@@ -54,7 +55,8 @@ int part(int *array, int low, int high, size_t size)
  * sort - performs sort recursively
  * @array: the array of ints
  * @low: int
- * @hign: int
+ * @high: int
+ * @size: size of array
  * Return: void
 */
 
