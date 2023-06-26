@@ -1,4 +1,5 @@
 #include "sort.h"
+#include <stdio.h>
 
 /**
  * selection_sort - sorts an array on integers using selection sort
@@ -28,7 +29,7 @@ void selection_sort(int *array, size_t size)
 				}
 			}
 		}
-		if (index >= i)
+		if (index > i)
 		{
 			tmp = array[i];
 			array[i] = array[index];
